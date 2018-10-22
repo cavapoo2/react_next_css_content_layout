@@ -30,6 +30,14 @@ const Header = () => (
     <Link href="/inlineBlockNavbar">
       <a style={linkStyle}>inline block navbar</a>
     </Link>
+    <Link href="/tabledisplayNavbar">
+      <a style={linkStyle}>table display navbar</a>
+    </Link>
+  <Link href="/flexboxNavbarNoWidth">
+      <a style={linkStyle}>flexboxNavbarNoWidth</a>
+    </Link>
+
+
 
 
 

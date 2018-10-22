@@ -24,6 +24,10 @@ const Header = () => (
     <Link href="/floatedImageSideBySide">
       <a style={linkStyle}>floated image side by side</a>
     </Link>
+    <Link href="/inlineBlockArticle">
+      <a style={linkStyle}>inline block article</a>
+    </Link>
+
 
 
 

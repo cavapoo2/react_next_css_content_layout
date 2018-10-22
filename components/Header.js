@@ -15,9 +15,13 @@ const Header = () => (
     <Link href="/absoluteComments">
       <a style={linkStyle}>absolute comments</a>
     </Link>
- <Link href="/absoluteOverlay">
+    <Link href="/absoluteOverlay">
       <a style={linkStyle}>absolute overlay</a>
     </Link>
+    <Link href="/floatedImageNudge">
+      <a style={linkStyle}>floated image nudge</a>
+    </Link>
+
 
 
 

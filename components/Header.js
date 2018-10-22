@@ -27,6 +27,11 @@ const Header = () => (
     <Link href="/inlineBlockArticle">
       <a style={linkStyle}>inline block article</a>
     </Link>
+    <Link href="/inlineBlockNavbar">
+      <a style={linkStyle}>inline block navbar</a>
+    </Link>
+
+
 
 
 

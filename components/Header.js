@@ -21,6 +21,11 @@ const Header = () => (
     <Link href="/floatedImageNudge">
       <a style={linkStyle}>floated image nudge</a>
     </Link>
+    <Link href="/floatedImageSideBySide">
+      <a style={linkStyle}>floated image side by side</a>
+    </Link>
+
+
 
 
 

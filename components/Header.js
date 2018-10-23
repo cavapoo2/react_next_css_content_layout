@@ -51,6 +51,12 @@ const Header = () => (
     <Link href="/flexboxNavbarJustifySpaceAround">
       <a style={linkStyle}>flexboxNavbarJustifySpaceAround</a>
     </Link>
+    <Link href="/flexboxNavbarMarginAuto">
+      <a style={linkStyle}>flexboxNavbarMarginAuto</a>
+    </Link>
+    <Link href="/flexboxNavbarAlignStretch">
+      <a style={linkStyle}>flexboxNavbarAlignStretch</a>
+    </Link>
 
     <style jsx> {`
    display: inline-block;

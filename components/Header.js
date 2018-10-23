@@ -33,9 +33,18 @@ const Header = () => (
     <Link href="/tabledisplayNavbar">
       <a style={linkStyle}>table display navbar</a>
     </Link>
-  <Link href="/flexboxNavbarNoWidth">
+    <Link href="/flexboxNavbarNoWidth">
       <a style={linkStyle}>flexboxNavbarNoWidth</a>
     </Link>
+    <Link href="/flexboxNavbarRowReverse">
+      <a style={linkStyle}>flexboxNavbarRowReverse</a>
+    </Link>
+    <Link href="/flexboxNavbarJustifyFlexEnd">
+      <a style={linkStyle}>flexboxNavbarJustifyFlexEnd</a>
+    </Link>
+
+
+
 
 
 

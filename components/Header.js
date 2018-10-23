@@ -48,6 +48,10 @@ const Header = () => (
     <Link href="/flexboxNavbarJustifySpaceBetween">
       <a style={linkStyle}>flexboxNavbarJustifySpaceBetween</a>
     </Link>
+    <Link href="/flexboxNavbarJustifySpaceAround">
+      <a style={linkStyle}>flexboxNavbarJustifySpaceAround</a>
+    </Link>
+
     <style jsx> {`
    display: inline-block;
    padding: 0.25em;

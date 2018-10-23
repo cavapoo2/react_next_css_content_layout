@@ -1,18 +1,21 @@
 import Layout from '../components/MyLayout.js'
+import HeaderLayout from '../components/HeaderLayout'
 
 export default () => (
+  <div>
+    <HeaderLayout />
     <Layout>
-        <body>
-            <header class="photo-header">
-                <img src="static/big_spaceship.jpg" alt="An artist’s mockup of the ”Dragon” spaceship" />
-                <div class="photo-header-plate">
-                    <h1>SpaceX unveil the Crew Dragon</h1>
-                    <p>Photo from SpaceX on <a href="https://www.flickr.com/photos/spacexphotos/16787988882/">Flickr</a></p>
-                </div>
-            </header>
-        </body>
+      <body>
+        <header class="photo-header">
+          <img src="static/big_spaceship.jpg" alt="An artist’s mockup of the ”Dragon” spaceship" />
+          <div class="photo-header-plate">
+            <h1>SpaceX unveil the Crew Dragon</h1>
+            <p>Photo from SpaceX on <a href="https://www.flickr.com/photos/spacexphotos/16787988882/">Flickr</a></p>
+          </div>
+        </header>
+      </body>
 
-        <style jsx> {`
+      <style jsx> {`
     body {
       margin: 0;
       font-family: Avenir, Franklin Gothic, sans-serif;
@@ -46,4 +49,5 @@ export default () => (
 `}  </style>
 
     </Layout>
+  </div>
 )

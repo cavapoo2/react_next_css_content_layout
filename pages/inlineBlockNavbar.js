@@ -1,6 +1,9 @@
 import Layout from '../components/MyLayout.js'
+import HeaderLayout from '../components/HeaderLayout'
 
 export default () => (
+    <div>
+    <HeaderLayout/>
     <Layout>
         <body>
             <nav className="navbar">
@@ -48,4 +51,5 @@ export default () => (
 `}  </style>
 
     </Layout>
+    </div>
 )

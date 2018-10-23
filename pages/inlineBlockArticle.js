@@ -1,6 +1,9 @@
 import Layout from '../components/MyLayout.js'
+import HeaderLayout from '../components/HeaderLayout'
 
 export default () => (
+  <div>
+  <HeaderLayout/>
   <Layout>
 <body>
   <h1>A fake article about spaceships</h1>
@@ -128,4 +131,5 @@ export default () => (
 `}  </style>
 
   </Layout>
+  </div>
 )

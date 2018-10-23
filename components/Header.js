@@ -1,7 +1,7 @@
 import Link from 'next/link'
 
 const linkStyle = {
-  marginRight: 15
+/*  marginRight: 15*/
 }
 
 const Header = () => (
@@ -42,20 +42,16 @@ const Header = () => (
     <Link href="/flexboxNavbarJustifyFlexEnd">
       <a style={linkStyle}>flexboxNavbarJustifyFlexEnd</a>
     </Link>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <Link href="/flexboxNavbarJustifyCenter">
+      <a style={linkStyle}>flexboxNavbarJustifyCenter</a>
+    </Link>
+    <Link href="/flexboxNavbarJustifySpaceBetween">
+      <a style={linkStyle}>flexboxNavbarJustifySpaceBetween</a>
+    </Link>
+    <style jsx> {`
+   display: inline-block;
+   padding: 0.25em;
+   `}</style> 
   </div>
 )
 

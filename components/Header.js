@@ -1,7 +1,7 @@
 import Link from 'next/link'
 
 const linkStyle = {
-/*  marginRight: 15*/
+  /*  marginRight: 15*/
 }
 
 const Header = () => (
@@ -57,11 +57,23 @@ const Header = () => (
     <Link href="/flexboxNavbarAlignStretch">
       <a style={linkStyle}>flexboxNavbarAlignStretch</a>
     </Link>
+    <Link href="/flexboxNavbarAlignStart">
+      <a style={linkStyle}>flexboxNavbarAlignStart</a>
+    </Link>
+     <Link href="/flexboxNavbarAlignBaseline">
+      <a style={linkStyle}>flexboxNavbarAlignBaseline</a>
+    </Link>
+     <Link href="/flexboxVerticalCentering">
+      <a style={linkStyle}>flexboxVerticalCentering</a>
+    </Link>
+
+
+
 
     <style jsx> {`
    display: inline-block;
    padding: 0.25em;
-   `}</style> 
+   `}</style>
   </div>
 )
 

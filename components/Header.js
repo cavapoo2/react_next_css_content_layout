@@ -66,6 +66,19 @@ const Header = () => (
      <Link href="/flexboxVerticalCentering">
       <a style={linkStyle}>flexboxVerticalCentering</a>
     </Link>
+    <Link href="/flexboxVerticalCenteringAuthorInfo">
+      <a style={linkStyle}>flexboxVerticalCenteringAuthorInfo</a>
+    </Link>
+    <Link href="/flexboxNavbarFlexSizeGrow">
+      <a style={linkStyle}>flexboxNavbarFlexSizeGrow</a>
+    </Link>
+    <Link href="/flexboxTagListWrap">
+      <a style={linkStyle}>flexboxTagListWrap</a>
+    </Link>
+
+
+
+
 
 
 

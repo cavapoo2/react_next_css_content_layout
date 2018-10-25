@@ -78,6 +78,10 @@ const Header = () => (
     <Link href="/flexboxColumnOrderTeaser">
       <a style={linkStyle}>flexboxColumnOrderTeaser</a>
     </Link>
+   <Link href="/flexboxNestedAutoMargin">
+      <a style={linkStyle}>flexboxNestedAutoMargin</a>
+    </Link>
+
 
 
 

@@ -75,6 +75,10 @@ const Header = () => (
     <Link href="/flexboxTagListWrap">
       <a style={linkStyle}>flexboxTagListWrap</a>
     </Link>
+    <Link href="/flexboxColumnOrderTeaser">
+      <a style={linkStyle}>flexboxColumnOrderTeaser</a>
+    </Link>
+
 
 
 
